@@ -1,0 +1,62 @@
+button {
+  background:transparent;
+  border:none;
+  outline:none;
+  display:block;
+  height:5vh;
+  width:20vw;
+  cursor:pointer;
+  z-index: 2;
+  position: absolute;
+}
+
+/* Общие стили для всей страницы */
+html, body {
+  /* height: 100%; */
+  margin: 0;
+  background-color: black;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Стили для видео-фона */
+.video-background {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  /* overflow: hidden; */
+  transform: scale(1.4);
+}
+
+#myVideo{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+.video-background2 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.first{
+  top: 80vh;
+  right: 71vw;
+}
+
+.second{
+  top: 80vh;
+  right: 36vw;
+  width: 26vw;
+}
+
+.third{
+  top: 80vh;
+  right: 8vw;
+}
